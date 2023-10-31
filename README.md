@@ -44,3 +44,10 @@ Game Design
 
 At the beginning of the game, the user is located at one end of the maze. Each time it reaches the intersection of three paths (left, front, and right), a pulse is thrown. Once the user has taken a path, if it is incorrect, an error pop-up is displayed after 3 s of progress and returned to the user at the beginning of the maze. 
 Each time a path intersection is entered, such as when selecting a path, both the times (seconds) and the path selected are recorded by following the code: [Insertion Number]_[Direction] (for example, Choosing the path to the right at the first cross-section would save the data: 1D). The game ends when the user reached the labyrinth exit.
+
+
+1.	San Agustín, A., & Pons, J. L. Paired associative stimulation protocols with transcranial magnetic stimulation for motor cortex potentiation. In School And Symposium On Advanced Neurorehabilitation (SSNR2018) (p. 44).
+2.	Hu, Y., Guo, T. C., Zhang, X. Y., Tian, J., & Lu, Y. S. (2019). Paired associative stimulation improves synaptic plasticity and functional outcomes after cerebral ischemia. Neural regeneration research, 14(11), 1968.
+3.	San Agustín, A., & Pons Rovira, J. L. (2019). Paired Associative Stimulation For Memory Facilitation. School And Symposium On Advanced Neurorehabilitation.
+
+
