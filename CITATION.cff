@@ -1,12 +1,19 @@
 cff-version: 1.1.0
-If you use this software, please cite it as below.
+message: "If you use this software, please cite it as below."
 authors:
-- Arantzazu San Augustín 
-- Ana Rojo  
-- David Crevillén
-- Rodrigo Martín
-- Juan C. Moreno
-orcid: https://orcid.org/0000-0003-1417-5461
-title:ArantzazuSanAgustin/Memory_TMS_Games: Memory_TMS_Games_v1.0.0
-version: MemoryTMSGames
+- family-names: "Arantzazu"
+  given-names: "San Augustín"
+  orcid: "https://orcid.org/0000-0003-1417-5461"
+- family-names: "Ana"
+  given-names: "Rojo"
+- family-names: "David"
+  given-names: "Crevillén"
+- family-names: "Rodrigo"
+  given-names: "Martín"
+- family-names: "Juan C."
+  given-names: "Moreno"
+title: "Memory TMS Games"
+version: 1.0.0
+doi: 10.5281/zenodo.10067200
 date-released: 2023-11-02
+url: "https://github.com/ArantzazuSanAgustin/Memory_TMS_Games"
