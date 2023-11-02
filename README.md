@@ -2,7 +2,9 @@
 
 This is the repository of two memory tasks synchronized with the transcranial magnetic stimulation (TMS) device, developed in the neurorehabilitation group (NRG) of the Cajal Institute, CSIC, by the following authors: Arantzazu San Augustín, Ana Rojo Agustí, Rodrigo Martín Marín, David Crevillén Hernández, and Juan Camilo Moreno Sostoque.
 
-Here you will find the game executables that you can use for your own memory research with TMS.
+Here you will find the game executables that you can use for your own memory research with TMS. If you use this software, please cite it as follows: 
+
+San Agustín, A., Rojo, A., Crevillén, D., Martín, R., & Moreno, J. C. (2023). Memory TMS Games (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.10067200
 
 The following is a description of the memory tasks and the rationale of their development.
 
