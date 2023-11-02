@@ -1,0 +1,12 @@
+cff-version: 1.1.0
+If you use this software, please cite it as below.
+authors:
+- Arantzazu San Augustín 
+- Ana Rojo  
+- David Crevillén
+- Rodrigo Martín
+- Juan C. Moreno
+orcid: https://orcid.org/0000-0003-1417-5461
+title:ArantzazuSanAgustin/Memory_TMS_Games: Memory_TMS_Games_v1.0.0
+version: MemoryTMSGames
+date-released: 2023-11-02
