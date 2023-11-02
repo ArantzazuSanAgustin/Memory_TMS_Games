@@ -43,6 +43,9 @@ This software simulates a maze with 18 crosses and three path choices in each di
 
 The goal of the user is to make the right choice at each crossroad of the path in the least possible number of attempts.
 
+![image](https://github.com/ArantzazuSanAgustin/Memory_TMS_Games/blob/main/Cross%20road%20maze%20picture.png)
+
+
 ### Technical Description/Support of the Solution
 
 The application is developed on the Unity video game engine v.2019.4.11f. for StandAlone PC platform Windows 8 and 10. The solution integrates the “inpout.dll” dependency to communicate with the parallel port. With this library we can communicate and trigger pulses from the computer to the parallel port that is as a digital output device. The developed application manages the opening and sending of signal to the parallel port pins. Following the design criteria of the game, pulse transmission was executed when reaching an intersection in the maze. Collision components are used to detect entry into intersections using the Unity 3D physics engine.
