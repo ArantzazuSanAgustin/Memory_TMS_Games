@@ -2,7 +2,9 @@
 
 This is the repository of two memory tasks synchronized with the transcranial magnetic stimulation (TMS) device, developed in the neurorehabilitation group (NRG) of the Cajal Institute, CSIC, by the following authors: Arantzazu San Augustín, Ana Rojo Agustí, Rodrigo Martín Marín, David Crevillén Hernández, and Juan Camilo Moreno Sostoque.
 
-The following is a description of the memory tasks and the development rationale.
+Here you will find the game executables that you can use for your own memory research with TMS.
+
+The following is a description of the memory tasks and the rationale of their development.
 
 ## VIRTUAL WATER MAZE
 
