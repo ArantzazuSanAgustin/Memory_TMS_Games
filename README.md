@@ -35,7 +35,7 @@ The game ends in two ways:
 - Reaching the platform position in two consecutive attempts.
 
 
-**## VIRTUAL CROSS-ROAD MAZE**
+## VIRTUAL CROSS-ROAD MAZE
 
 ### Introduction
 
