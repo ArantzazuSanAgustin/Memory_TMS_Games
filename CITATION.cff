@@ -1,17 +1,17 @@
 cff-version: 1.1.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Arantzazu"
-  given-names: "San Augustín"
+- family-names: "San Augustín"
+  given-names: "Arantzazu"
   orcid: "https://orcid.org/0000-0003-1417-5461"
-- family-names: "Ana"
-  given-names: "Rojo"
-- family-names: "David"
-  given-names: "Crevillén"
-- family-names: "Rodrigo"
-  given-names: "Martín"
-- family-names: "Juan C."
-  given-names: "Moreno"
+- family-names: "Rojo"
+  given-names: "Ana"
+- family-names: "Crevillén"
+  given-names: "David"
+- family-names: "Martín"
+  given-names: "Rodrigo"
+- family-names: "Moreno"
+  given-names: "Juan C."
 title: "Memory TMS Games"
 version: 1.0.0
 doi: 10.5281/zenodo.10067200
