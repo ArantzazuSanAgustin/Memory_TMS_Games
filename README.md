@@ -1,6 +1,6 @@
 # Memory_TMS_Games
 
-This is the repository of two memory tasks synchronized with the transcraneal magnetic stimulation device, developed in the neurorehabilitation group (NRG) of the Cajal Institute, CSIC, by the following authors: Arantzazu San Augustín, Rodrigo Martín Marín, Ana Rojo Agustí, David Crevillén Hernández and Juan Camilo Moreno Sostoque.
+This is the repository of two memory tasks synchronized with the transcraneal magnetic stimulation (TMS) device, developed in the neurorehabilitation group (NRG) of the Cajal Institute, CSIC, by the following authors: Arantzazu San Augustín, Rodrigo Martín Marín, Ana Rojo Agustí, David Crevillén Hernández and Juan Camilo Moreno Sostoque.
 
 The following is a description of the memory tasks and the development rationale.
 
@@ -8,13 +8,17 @@ The following is a description of the memory tasks and the development rationale
 
 ### Introduction
 
-This software simulates the Morris Water Maze task of spatial memory synchronized with magnetic transcranial stimulation to evaluate memory and induce changes in cortical plasticity that would translate into an improvement in the task performance. 
-In a virtual space, we developed an interface in which the user can navigate through a round pool where a platform is hidden and four symbols are presented on its wall, which will be the reference for orientation. The goal of this task was to find a hidden platform. During the different tests, the symbols and platform remained in the same position; however, the subject appeared in a random place inside the pool. The user can move around the space using arrow buttons on the keyboard and orient the camera using the mouse. 
-Synchronization with transcranial magnetic stimulation (TMS) methodologies has been shown to neuromodulate the excitability of the motor system and promote the improvement of motor function [1]. TMS is a technique capable of provoking electrical currents in the cerebral cortex in a noninvasive manner by generating short magnetic fields of high intensity, which depolarize a certain population of nerve cells from small cortical regions. A TMS configuration strategy to induce neuronal plasticity is paired associative stimulation (PAS), which is a combination of a single TMS pulse and another stimulus or event that induces activation in the same nervous tract.
+This software simulates the Morris Water Maze task of spatial memory synchronized with TMS to evaluate memory and induce changes in cortical plasticity that would translate into an improvement in the task performance.
 
-Recently, techniques applied to the motor cortex have been shown to improve spatial memory capabilities [2, 3]. Therefore, in the developed program, a single TMS pulse was synchronized with the appearance of the signals necessary for space orientation. As the subject searched for the platform oriented by these symbols, we programmed the application of a simple TMS pulse on the user's motor cortex every time the camera directed towards a signal and entered its field of vision. Therefore, we synchronized motor cortex activation with the endogenous cortical activation of the spatial memory process.
-Technical Description/Support of the Solution 
-The application was developed on the Unity video game engine v.2019.4.11f. for the StandAlone PC platforms Windows 8 and 10. The solution integrates the “inpout.dll” dependency to communicate with a parallel port. Using this library, we can communicate triggers/pulses from the computer to the parallel port, which is a digital output device. The developed application manages the opening and sending of signals to the parallel port pins. Following the design criteria of the game, pulse sending was performed when viewing a reference in the pool or when reaching an intersection in the maze. The detection of such references in the camera's field of vision is implemented using the raycast method using the Unity 3D Physics engine. The detection of entry in intersections uses collision components, using the Unity 3D Physics engine.
+In a virtual space, we developed an interface in which the user can navigate through a round pool where a platform is hidden and four symbols are presented on its wall, which will be the reference for orientation. The goal of this task was to find a hidden platform. During the different tests, the symbols and platform remained in the same position; however, the subject appeared in a random place inside the pool. The user can move around the space using arrow buttons on the keyboard and orient the camera using the mouse. 
+
+Synchronization with TMS has been shown to neuromodulate the excitability of the motor system and promote the improvement of motor function [1]. TMS is a technique capable of inducing electrical currents in the cerebral cortex in a noninvasive manner by generating short magnetic fields of high intensity, which depolarize certain population of nerve cells from small cortical regions. A TMS configuration strategy to induce neuronal plasticity is paired associative stimulation (PAS), which is a combination of a single TMS pulse and another stimulus or event that induces activation in the same nervous tract.
+
+Recently, techniques applied to the motor cortex have been shown to improve spatial memory capabilities [2, 3]. Therefore, in the developed task, a single TMS pulse was synchronized with the appearance of the signals necessary for space orientation. As the subject searched for the platform oriented by these symbols, we programmed the application of a simple TMS pulse on the user's motor cortex every time the camera directed towards a signal and entered its field of vision. Therefore, we synchronized motor cortex activation with the endogenous cortical activation of the spatial memory process.
+
+### Technical Description/Support of the Solution 
+
+The application was developed on the Unity video game engine v.2019.4.11f. for the StandAlone PC platforms Windows 8 and 10. The solution integrates the “inpout.dll” dependency to communicate with a parallel port. Using this library, we can communicate and trigger pulses from the computer to the parallel port, which is a digital output device. The developed application manages the opening and sending of signals to the parallel port pins. Following the design criteria of the game, pulse sending was performed when viewing a reference in the pool or when reaching an intersection in the maze. The detection of such references in the camera's field of vision is implemented using the raycast method using the Unity 3D Physics engine. The detection of entry in intersections uses collision components, using the Unity 3D Physics engine.
 
 ### Visual interface
 
@@ -27,8 +31,8 @@ At the start of the game, the number of attempts and the maximum duration (secon
 The recorded data of the video game are: the coordinates of the camera position in the pool (50 fps), the time to complete each trial (seconds) and the time in which each signal has been viewed since the beginning of the trial (seconds).
 
 The game ends in two ways: 
-1) Having completed all attempts indicated at the beginning of the session. 
-2) Reaching the platform position in two consecutive attempts.
+- Having completed all attempts indicated at the beginning of the session. 
+- Reaching the platform position in two consecutive attempts.
 
 
 **## VIRTUAL CROSS-ROAD MAZE**
